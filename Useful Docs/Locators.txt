@@ -1,0 +1,25 @@
+Attribute based
+	Id
+	Name
+	Class Name
+Text Based
+	Link Text
+	Partial Link Text
+Tag based
+	Tag name
+	Css
+Xpath
+
+
+Id			resource-id
+Name			name
+ClassName		class
+Xpath			NA
+Accessibility Id	content-desc
+
+Priority
+Id
+Accessibility Id
+Name
+ClassName
+Xpath			

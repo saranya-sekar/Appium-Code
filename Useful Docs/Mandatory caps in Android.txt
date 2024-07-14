@@ -1,0 +1,16 @@
+Mandatory capabilities in Android
+
+Just create a session with available device
+1. platformName --> Android
+2. automationName --> UiAutomator2
+
+Create a session, Install the app that is provided and launch it
+1. platformName --> Android
+2. automationName --> UiAutomator2
+3. app --> Absolute path of the APK file
+
+Create a session, Launch the app that is already installed
+1. platformName --> Android
+2. automationName --> UiAutomator2
+3. appPackage --> Name of the application provided by Dev team (com.testleaf.leaforg / com.amazon.mShop.android.shopping)
+4. appActivity --> Screen name which need to be shown (com.testleaf.leaforg.MainActivity / com.amazon.mShop.home.HomeActivity)
