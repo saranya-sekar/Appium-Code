@@ -1,0 +1,5 @@
+Psuedo code
+1. Move to the target start position
+2. Click and hold on the start position
+3. Move to end position
+4. Release your finger
