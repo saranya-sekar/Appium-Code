@@ -1,2 +1,4 @@
-package pages;public class ResetPasswordPage {
+package pages;
+
+public class ResetPasswordPage {
 }

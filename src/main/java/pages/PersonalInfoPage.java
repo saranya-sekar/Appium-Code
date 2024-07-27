@@ -1,2 +1,4 @@
-package pages;public class PersonalInfoPage {
+package pages;
+
+public class PersonalInfoPage {
 }
