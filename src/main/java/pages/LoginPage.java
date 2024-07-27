@@ -1,10 +1,12 @@
 package pages;
 
+import io.appium.java_client.AppiumDriver;
 import wrappers.GenericWrappers;
 
 public class LoginPage extends GenericWrappers {
 
-    public LoginPage() {
+    public LoginPage(AppiumDriver driver) {
+        this.driver = driver;
         verifyUserNameTextBoxIsDisplayed();
     }
 
@@ -25,7 +27,7 @@ public class LoginPage extends GenericWrappers {
 
     public HomePage clickLogin() {
         click(getWebElement(Locators.CLASS_NAME.asString(), "android.widget.Button"));
-        return new HomePage();
+        return new HomePage(driver);
     }
 
     public LoginPage clickLoginForFailure() {
