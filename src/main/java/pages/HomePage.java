@@ -1,14 +1,11 @@
 package pages;
 
-import io.appium.java_client.AppiumDriver;
+import io.cucumber.java.en.Then;
 import wrappers.GenericWrappers;
 
 public class HomePage extends GenericWrappers {
-    public HomePage(AppiumDriver driver) {
-        this.driver = driver;
-        verifyFirstNameTextIsDisplayed();
-    }
 
+    @Then("Verify Home page is displayed")
     public HomePage verifyFirstNameTextIsDisplayed() {
         eleIsDisplayed(getWebElement(Locators.XPATH.asString(), "//*[@text='Rajkumar Ganesan']"));
         return this;

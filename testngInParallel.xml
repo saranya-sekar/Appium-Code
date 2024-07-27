@@ -18,8 +18,7 @@
         <parameter name="mjpegServerPort" value="9500"></parameter>
         <parameter name="chromeDriverPort" value="9601"></parameter>
         <classes>
-            <class name="testcases.TC001"></class>
-            <class name="testcases.TC002"></class>
+            <class name="runner.TestRunner"></class>
         </classes>
     </test>
     <test verbose="2" preserve-order="true" name="test2">
@@ -28,8 +27,7 @@
         <parameter name="mjpegServerPort" value="9501"></parameter>
         <parameter name="chromeDriverPort" value="9601"></parameter>
         <classes>
-            <class name="testcases.TC001"></class>
-            <class name="testcases.TC002"></class>
+            <class name="runner.TestRunner"></class>
         </classes>
     </test>
 </suite>
