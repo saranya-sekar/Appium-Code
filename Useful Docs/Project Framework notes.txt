@@ -1,0 +1,84 @@
+Rules of POM
+1. Every page should be a separate class
+2. Every action should be a separate method
+3. Every method should have a return type and return to the page where it lands post completion of that action
+4. Every page should extend or inherit the base or wrapper class
+5. Verify the page it has been landed
+6. Base class should be created with reusable or needed methods
+
+
+Step 1:Base class should be created with reusable or needed methods
+Step 2:Every page should be a separate class
+Step 3:Every page should extend or inherit the base or wrapper class
+Step 4:Every action should be a separate method
+Step 5:Every method should have a return type and return to the page where it lands post completion of that action
+Step 6:Verify the page it has been landed
+
+
+public class LoginPage extends GenericWrappers {
+
+public HomePage clickLoginButton() {
+.....
+return new HomePage();
+}
+}
+
+1. Pass the driver object
+2. Create a ThreadLocal Object
+
+
+Cucumber
+Rules of Cucumber
+1. Project
+2. Feature
+3. Create the Test cases inside the feature
+4. Each TC should have clear steps and it should be defined (Automation)
+
+Manual testing
+Test suite
+	Test scenarios
+		Test cases
+			Test steps
+
+TestNG
+Suite
+	Test
+		Class
+			Method
+
+Cucumber
+Project
+	Feature
+		Scenario
+			Steps
+
+Gherkin Keywords
+Given --> Pre condition
+When --> Action/Steps
+Then --> Expected Result
+And --> Supporting keyword
+But --> Expected Result with negative 
+* --> Wild Card
+
+Excel
+TC Name
+Pre conditions / Pre Requisite
+
+S.No	Action/Steps	Expected Result		
+
+
+1. A.Feature
+	Scenario 1
+	Scenario 2
+2. B.Feature
+	Scenario 1
+	Scenario 2
+
+
+	Scenario 1 from A
+	Scenario 2 from A
+	Scenario 1 from B
+	Scenario 2 from B
+
+
+
