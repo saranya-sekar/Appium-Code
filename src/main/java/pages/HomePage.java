@@ -3,7 +3,7 @@ package pages;
 import wrappers.GenericWrappers;
 
 public class HomePage extends GenericWrappers {
-    public void HomePage() {
+    public HomePage() {
         verifyFirstNameTextIsDisplayed();
     }
 
