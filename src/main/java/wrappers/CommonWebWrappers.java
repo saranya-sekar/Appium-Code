@@ -51,6 +51,7 @@ public class CommonWebWrappers extends CommonNativeWrappers {
                 if (!webkitDebugProxyPort.equals(""))
                     dc.setCapability("webkitDebugProxyPort", webkitDebugProxyPort);
                 // Comment the below line based on need
+                dc.setCapability("webviewConnectTimeout", 40000);
                 dc.setCapability("autoAcceptAlerts", true);
                 dc.setCapability("startIWDP", true);
                 dc.setCapability("nativeWebTap", true);
