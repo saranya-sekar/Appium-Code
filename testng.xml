@@ -19,8 +19,7 @@
     <parameter name="wdaLocalPort" value=""></parameter>
     <test verbose="2" preserve-order="true" name="test">
         <classes>
-            <class name="testcases.TC001"></class>
-            <class name="testcases.TC002"></class>
+            <class name="runner.TestRunner"></class>
         </classes>
     </test>
 </suite>
