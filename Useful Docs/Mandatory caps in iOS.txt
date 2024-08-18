@@ -1,0 +1,71 @@
+Mandatory capabilities in iOS
+
+Just create a session with available device (for sequential)
+1. platformName --> iOS
+2. automationName --> XCUITest
+3. deviceName --> Exact match of the simulator name (recommended only for Simulator)
+4. platformVersion --> version of the simulator that is being used (recommended only for Simulator)
+5. udid --> Unique Identifier (recommended to identify the right device)
+
+Create a session, Install the app that is provided and launch it (for sequential)
+1. platformName --> iOS
+2. automationName --> XCUITest
+3. deviceName --> Exact match of the simulator name (recommended only for Simulator)
+4. platformVersion --> version of the simulator that is being used (recommended only for Simulator)
+5. udid --> Unique Identifier (recommended to identify the right device)
+6. app --> Absolute path of the IPA or APP or ZIP file
+
+Create a session, Launch the app that is already installed (for sequential)
+1. platformName --> iOS
+2. automationName --> XCUITest
+3. deviceName --> Exact match of the simulator name (recommended only for Simulator)
+4. platformVersion --> version of the simulator that is being used (recommended only for Simulator)
+5. udid --> Unique Identifier (recommended to identify the right device)
+6. bundleId --> Bundle Id retrieved from the developer
+
+Create a session, launch Safari browser (for sequential)
+1. platformName --> iOS
+2. automationName --> XCUITest
+3. deviceName --> Exact match of the simulator name (recommended only for Simulator)
+4. platformVersion --> version of the simulator that is being used (recommended only for Simulator)
+5. udid --> Unique Identifier (recommended to identify the right device)
+6. browserName --> Safari
+
+Just create a session with available device (run in parallel)
+1. platformName --> iOS
+2. automationName --> XCUITest
+3. deviceName --> Exact match of the simulator name (recommended only for Simulator)
+4. platformVersion --> version of the simulator that is being used (recommended only for Simulator)
+5. udid --> Unique Identifier (recommended to identify the right device)
+6. wdaLocalPort --> WebDriverAgent local port
+7. mjpegServerPort --> Passes the screenshot and video via different port
+
+Create a session, Install the app that is provided and launch it (run in parallel)
+1. platformName --> iOS
+2. automationName --> XCUITest
+3. deviceName --> Exact match of the simulator name (recommended only for Simulator)
+4. platformVersion --> version of the simulator that is being used (recommended only for Simulator)
+5. udid --> Unique Identifier (recommended to identify the right device)
+6. wdaLocalPort --> WebDriverAgent local port
+7. mjpegServerPort --> Passes the screenshot and video via different port
+8. app --> Absolute path of the IPA or APP or ZIP file
+
+Create a session, Launch the app that is already installed (run in parallel)
+1. platformName --> iOS
+2. automationName --> XCUITest
+3. deviceName --> Exact match of the simulator name (recommended only for Simulator)
+4. platformVersion --> version of the simulator that is being used (recommended only for Simulator)
+5. udid --> Unique Identifier (recommended to identify the right device)
+6. wdaLocalPort --> WebDriverAgent local port
+7. mjpegServerPort --> Passes the screenshot and video via different port
+8. bundleId --> Bundle Id retrieved from the developer
+
+Create a session, launch Safari browser (run in parallel)
+1. platformName --> Android
+2. automationName --> UiAutomator2
+3. browserName --> chrome / chromium
+4. systemPort --> Local UiAutomator Client Port (needed only if we switch to Native View)
+5. chromeDriverPort --> Chrome Driver port (needed only for WebViews)
+6. mjpegServerPort --> Passes the screenshot and video via different port
+7. udid --> Unique Device Identifier
+8. browserName --> Safari

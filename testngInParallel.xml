@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="2">
+    <parameter name="platformName" value="Android"></parameter>
+    <parameter name="automationName" value="UiAutomator2"></parameter>
+    <parameter name="app" value="/apks/leaforg.apk"></parameter>
+
+    <parameter name="appPackage" value=""></parameter>
+    <parameter name="appActivity" value=""></parameter>
+
+    <parameter name="bundleId" value=""></parameter>
+    <parameter name="xcodeOrgId" value=""></parameter>
+    <parameter name="xcodeSigningId" value=""></parameter>
+    <parameter name="wdaLocalPort" value=""></parameter>
+    <test verbose="2" preserve-order="true" name="test1">
+        <parameter name="systemPort" value="9000"></parameter>
+        <parameter name="udid" value="emulator-5554"></parameter>
+        <parameter name="mjpegServerPort" value="9500"></parameter>
+        <parameter name="chromeDriverPort" value="9601"></parameter>
+        <classes>
+            <class name="testcases.TC001"></class>
+            <class name="testcases.TC002"></class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="test2">
+        <parameter name="systemPort" value="9001"></parameter>
+        <parameter name="udid" value="emulator-5556"></parameter>
+        <parameter name="mjpegServerPort" value="9501"></parameter>
+        <parameter name="chromeDriverPort" value="9601"></parameter>
+        <classes>
+            <class name="testcases.TC001"></class>
+            <class name="testcases.TC002"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,12 @@
+Input to developer
+1. Bundle Id of WDA --> com.facebook.WebDriverAgentRunner
+2. UDID of the test phone --> <udid of device>
+3. Generate the CSR for KeyChain Access --> Share with the development team
+
+Output from development team
+1. Apple Developer Certificate
+2. Provisioning profile
+
+Challenges in installation of the certificates
+1. Certificate is not trusted --> Get 3 intermediate certificates from Dev team and install that too
+2. WDA app is not installed and launched --> Recheck with the developer that the UDID is added in profile
